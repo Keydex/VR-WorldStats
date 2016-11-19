@@ -1,0 +1,209 @@
+{
+	"fxdata": {
+		},
+		"Chinese Yuan" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.07%"
+		},
+		"Euro(1)" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.14%"
+		},
+		"Japanese Yen" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-2.44%"
+		},
+		"U.K. Pound Sterling(1)" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.28%"
+		},
+		"U.S. Dollar" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.00%"
+		},
+		"Algerian Dinar" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.22%"
+		},
+		"Australian Dollar(1)" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-1.35%"
+		},
+		"Bahrain Dinar" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.00%"
+		},
+		"Botswana Pula(1)" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.31%"
+		},
+		"Brazilian Real" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.00%"
+		},
+		"Brunei Dollar" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.16%"
+		},
+		"Canadian Dollar" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.53%"
+		},
+		"Chilean Peso" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.51%"
+		},
+		"Colombian Peso" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-2.79%"
+		},
+		"Czech Koruna" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.18%"
+		},
+		"Danish Krone" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.14%"
+		},
+		"Hungarian Forint" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.26%"
+		},
+		"Icelandic Krona" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.81%"
+		},
+		"Indian Rupee" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.13%"
+		},
+		"Indonesian Rupiah" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.05%"
+		},
+		"Iranian Rial" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.01%"
+		},
+		"Israeli New Sheqel" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.39%"
+		},
+		"Kazakhstani Tenge" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.42%"
+		},
+		"Korean Won" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.36%"
+		},
+		"Kuwaiti Dinar" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.10%"
+		},
+		"Libyan Dinar(2)" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.00%"
+		},
+		"Malaysian Ringgit" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.33%"
+		},
+		"Mauritian Rupee" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.29%"
+		},
+		"Mexican Peso" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "7.65%"
+		},
+		"Nepalese Rupee" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.00%"
+		},
+		"New Zealand Dollar(1)" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.71%"
+		},
+		"Norwegian Krone" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.63%"
+		},
+		"Rial Omani" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.00%"
+		},
+		"Pakistani Rupee" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.04%"
+		},
+		"Nuevo Sol" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.51%"
+		},
+		"Philippine Peso" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.17%"
+		},
+		"Polish Zloty" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.35%"
+		},
+		"Qatar Riyal" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.00%"
+		},
+		"Russian Ruble" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.25%"
+		},
+		"Saudi Arabian Riyal" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.00%"
+		},
+		"Singapore Dollar" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.16%"
+		},
+		"South African Rand" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.64%"
+		},
+		"Sri Lanka Rupee" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.03%"
+		},
+		"Swedish Krona" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.32%"
+		},
+		"Swiss Franc" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.44%"
+		},
+		"Thai Baht" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "-0.10%"
+		},
+		"Trinidad And Tobago Dollar" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.06%"
+		},
+		"Tunisian Dinar" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.11%"
+		},
+		"U.A.E. Dirham" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.00%"
+		},
+		"Peso Uruguayo" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.22%"
+		},
+		"Bolivar Fuerte" : {
+			"date" : "11/9/2016",
+			"changePercentage" : "0.00%"
+		}
+	}
+}
