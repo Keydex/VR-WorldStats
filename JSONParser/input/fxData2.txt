@@ -1,4 +1,4 @@
-Country Date; Percentage Change
+Country Date PercentageChange
 Chinese Yuan	11/10/2016	0.22%
 Euro(1)	11/10/2016	-1.30%
 Japanese Yen	11/10/2016	1.39%
