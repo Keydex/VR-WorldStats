@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CC5FDB56-9036-DC84-E46C-27EB128C5FAC}</ProjectGuid>
+    <ProjectGuid>{30E05047-7868-86E4-217C-0E4B503801B4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -93,9 +93,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Vrifydata.csproj">
-      <Project>{1CB7754B-2A79-EA6A-EB79-934FF234A227}</Project>
-      <Name>Vrifydata</Name>
+    <ProjectReference Include="VRifyData.csproj">
+      <Project>{68A88F9D-1893-834D-1E2B-0863463911BA}</Project>
+      <Name>VRifyData</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
