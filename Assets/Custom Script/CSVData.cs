@@ -10,7 +10,7 @@ public class CSVData : MonoBehaviour
     void Start()
     {
         Load(file);
-        Debug.Log(Find_Country("United States").Currency);
+        //Debug.Log(Find_Country("United States").Change);
     }
 
     void Update()
