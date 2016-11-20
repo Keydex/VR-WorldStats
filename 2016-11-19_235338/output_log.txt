@@ -1,0 +1,191 @@
+Initialize engine version: 5.4.3f1 (01f4c123905a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 7800 Series (ID=0x6818)
+    Vendor:   ATI
+    VRAM:     2029 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Managed\Newtonsoft.Json.dll (this message is harmless)
+Loading C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Managed\Newtonsoft.Json.dll into Unity Child Domain
+- Completed reload, in  0.175 seconds
+Platform assembly: C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on OVRScreenFade
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 375)
+
+desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.690761 ms
+Crash!!!
+SymInit: Symbol-SearchPath: '.', symOptions: 534, UserName: 'Simon'
+OS-Version: 10.0.14393 () 0x100-0x1
+C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData.exe:VRifyData.exe (000D0000), size: 18427904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.4.3.62657
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (77660000), size: 1581056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.447
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (76DE0000), size: 917504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (76340000), size: 1708032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.321
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (768A0000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.206
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (764F0000), size: 1421312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.447
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (59C50000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\USER32.dll:USER32.dll (77190000), size: 1437696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.351
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (76200000), size: 778240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.14393.0
+C:\WINDOWS\System32\win32u.dll:win32u.dll (76650000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.51
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (74860000), size: 487424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\sechost.dll:sechost.dll (77000000), size: 266240 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (76130000), size: 790528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.82
+C:\WINDOWS\System32\SspiCli.dll:SspiCli.dll (74120000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.187
+C:\WINDOWS\System32\CRYPTBASE.dll:CRYPTBASE.dll (74110000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (77450000), size: 368640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (75CD0000), size: 405504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.206
+C:\WINDOWS\System32\ole32.dll:ole32.dll (75D40000), size: 958464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.447
+C:\WINDOWS\System32\combase.dll:combase.dll (75F10000), size: 2166784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.351
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (74090000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (77370000), size: 917504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (76EC0000), size: 286720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (748F0000), size: 20811776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.447
+C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (74740000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\windows.storage.dll:windows.storage.dll (741D0000), size: 5693440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.206
+C:\WINDOWS\System32\powrprof.dll:powrprof.dll (74780000), size: 282624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\kernel.appcore.dll:kernel.appcore.dll (77630000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\shcore.dll:shcore.dll (74140000), size: 557056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\profapi.dll:profapi.dll (76330000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (767F0000), size: 606208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.447
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (75E90000), size: 503808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (77340000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (65900000), size: 917504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (731D0000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (73660000), size: 507904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.206
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (69E10000), size: 655360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.351
+C:\WINDOWS\System32\NSI.dll:NSI.dll (774B0000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (74060000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (65050000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\DDRAW.dll:DDRAW.dll (64F60000), size: 970752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.447
+C:\WINDOWS\SYSTEM32\WINMMBASE.dll:WINMMBASE.dll (731A0000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\DCIMAN32.dll:DCIMAN32.dll (64F50000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (73200000), size: 479232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Mono\mono.dll:mono.dll (10000000), size: 2297856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.0.1
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (76320000), size: 24576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (72770000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (77050000), size: 1265664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.447
+C:\WINDOWS\system32\dwmapi.dll:dwmapi.dll (730D0000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.206
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (695E0000), size: 2289664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.351
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (69430000), size: 540672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\Users\Simon\Desktop\wildhacks\Vrifydata\VRifyData_Data\Plugins\OVRPlugin.dll:OVRPlugin.dll (5B090000), size: 1445888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.9.0.0
+C:\WINDOWS\SYSTEM32\WININET.dll:WININET.dll (6F0C0000), size: 2289664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.14393.447
+C:\WINDOWS\System32\wintrust.DLL:wintrust.DLL (772F0000), size: 278528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.351
+C:\WINDOWS\System32\MSASN1.dll:MSASN1.dll (76890000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (76670000), size: 1560576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.351
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (71310000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (712E0000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (73030000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (77640000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\gpapi.dll:gpapi.dll (707C0000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT32_1.dll:LibOVRRT32_1.dll (59AE0000), size: 1466368 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.10.0.0
+C:\WINDOWS\SYSTEM32\pdh.dll:pdh.dll (73150000), size: 278528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.206
+C:\WINDOWS\SYSTEM32\DbgHelp.dll:DbgHelp.dll (6ED60000), size: 1331200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14321.1024
+C:\WINDOWS\System32\perfos.dll:perfos.dll (6B5E0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\DriverStore\FileRepository\c0307875.inf_amd64_1c1656d605c8d57c\aticfx32.dll:aticfx32.dll (6B080000), size: 1286144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 21.19.151.3
+C:\WINDOWS\System32\DriverStore\FileRepository\c0307875.inf_amd64_1c1656d605c8d57c\atiuxpag.dll:atiuxpag.dll (5E070000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 21.19.151.3
+C:\WINDOWS\System32\DriverStore\FileRepository\c0307875.inf_amd64_1c1656d605c8d57c\atidxx32.dll:atidxx32.dll (5D7C0000), size: 9064448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 21.19.151.3
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (76930000), size: 4239360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (747D0000), size: 540672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (619E0000), size: 360448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (73CA0000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\System32\PROPSYS.dll:PROPSYS.dll (71330000), size: 1372160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.14393.0
+C:\WINDOWS\SYSTEM32\wdmaud.drv:wdmaud.drv (5C1E0000), size: 233472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\AVRT.dll:AVRT.dll (61BC0000), size: 36864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\ksuser.dll:ksuser.dll (5E340000), size: 28672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (61B10000), size: 503808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.447
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (61A40000), size: 847872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.351
+C:\WINDOWS\SYSTEM32\msacm32.drv:msacm32.drv (5C1D0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\MSACM32.dll:MSACM32.dll (61690000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\midimap.dll:midimap.dll (5C1C0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.14393.447_none_89c64d28dafea4b9\comctl32.dll:comctl32.dll (6EEB0000), size: 2138112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.14393.447
+C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (0FDA0000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.18.944.0
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (73C70000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (73C00000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (73BF0000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (73B20000), size: 794624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (73C80000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (707A0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.0
+
+========== OUTPUTING STACK TRACE ==================
+
+0x006ED1D6 (VRifyData) RegisterModule_CloudWebServices
+0x006D4A89 (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x006D3CE7 (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x006D3E06 (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x006D620F (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x006D2C75 (VRifyData) CallbackArray3<unsigned int,unsigned __int64,unsigned __int64>::Invoke
+0x006D3964 (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x006D3987 (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x001C7691 (VRifyData) CallbackArray1<Camera *>::Invoke
+0x002FA43F (VRifyData) RectT<int>::Contains
+0x00392945 (VRifyData) PlayerMainWndProc
+0x771BD2B3 (USER32) SetManipulationInputTarget
+0x7719E88A (USER32) DispatchMessageW
+0x7719E4C0 (USER32) DispatchMessageW
+0x771A8B09 (USER32) MsgWaitForMultipleObjectsEx
+0x776D0006 (ntdll) KiUserCallbackDispatcher
+0x771A6A6D (USER32) PeekMessageW
+0x75FD08F6 (combase) CoCreateFreeThreadedMarshaler
+0x75FD0B9F (combase) CoCreateFreeThreadedMarshaler
+0x75FD10B5 (combase) CoCreateFreeThreadedMarshaler
+0x75FBE641 (combase) PropVariantClear
+0x75FCFBF6 (combase) CoCreateFreeThreadedMarshaler
+0x75FCF4DF (combase) CoCreateFreeThreadedMarshaler
+0x75F33015 (combase) NdrCStdStubBuffer2_Release
+0x76135A9A (RPCRT4) NdrClientCall2
+0x75F33A90 (combase) WdtpInterfacePointer_UserSize
+0x7602275F (combase) Ordinal99
+0x75F92689 (combase) CLSIDFromString
+0x75F95986 (combase) CoGetCallContext
+0x75F99892 (combase) CoGetCallContext
+0x75FDC150 (combase) CoWaitForMultipleHandles
+0x75FDB552 (combase) CoWaitForMultipleHandles
+0x75FFC7AF (combase) CoCreateInstanceEx
+0x73C72069 (wbemprox) DllGetClassObject
+0x73C723E3 (wbemprox) DllGetClassObject
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 73C71BA9)
+0x73C71BA9 (wbemprox) 
+0x73C72A1F (wbemprox) DllGetClassObject
+0x001F40B2 (VRifyData) systeminfo::GetProcessorCount
+0x001F60AA (VRifyData) systeminfo::GetProcessorCount
+0x006D4975 (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x006D3CDA (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x006D44F7 (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x006D60CB (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x006D6195 (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x006D620F (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x006D2C75 (VRifyData) CallbackArray3<unsigned int,unsigned __int64,unsigned __int64>::Invoke
+0x006D3964 (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x006D3ABA (VRifyData) CallbackArrayBase<void (__stdcall*)(enum UnityGfxDeviceEventType),void (__stdcall*)(void const *,enum UnityGfxDeviceEventType)>::Register
+0x0031FE60 (VRifyData) CallbackArray3<int const ,AwakeFromLoadQueue &,enum RuntimeSceneManager::LoadingMode>::Invoke
+0x00320B8F (VRifyData) CallbackArray3<int const ,AwakeFromLoadQueue &,enum RuntimeSceneManager::LoadingMode>::Invoke
+0x00320D4F (VRifyData) CallbackArray3<int const ,AwakeFromLoadQueue &,enum RuntimeSceneManager::LoadingMode>::Invoke
+0x0031FC59 (VRifyData) RectT<int>::Contains
+0x002F9EB9 (VRifyData) PluginCallbackArray1<enum UnityGfxDeviceEventType>::Invoke
+0x002F9F36 (VRifyData) PluginCallbackArray1<enum UnityGfxDeviceEventType>::Invoke
+0x0039228F (VRifyData) RemapPPtrTransfer::GetGenerateIDFunctor
+0x00394BDE (VRifyData) PlayerWinMain
+0x00776608 (VRifyData) SparseTexture::GetDimension
+0x007A62C8 (VRifyData) SparseTexture::GetDimension
+0x76DF62C4 (KERNEL32) BaseThreadInitThunk
+0x776C0719 (ntdll) RtlSubscribeWnfStateChangeNotification
+
+========== END OF STACKTRACE ===========
+
+**** Crash! ****
