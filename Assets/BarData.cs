@@ -23,6 +23,7 @@ public class BarData : MonoBehaviour {
     public float Austrailia_Bar_size;
     public float Egypt_Bar_size;
     public float Europe_Bar_size;
+    public bool done = false;
 
 
     // Use this for initialization
@@ -54,104 +55,144 @@ public class BarData : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (data.IsLoaded() && !done)
+        {
+
+            USA_Bar_size = Mathf.Abs(100 + float.Parse(data.Find_Country("United States").Change) * 100);
+            Canada_Bar_size = Mathf.Abs(100 + float.Parse(data.Find_Country("Canada").Change) * 100);
+            Mexico_Bar_size = Mathf.Abs(100 + float.Parse(data.Find_Country("Mexico").Change) * 100);
+            Brazil_Bar_size = Mathf.Abs(100 + float.Parse(data.Find_Country("Brazil").Change) * 100);
+            Japan_Bar_size = Mathf.Abs(100 + float.Parse(data.Find_Country("Japan").Change) * 100);
+            Austrailia_Bar_size = Mathf.Abs(100 + float.Parse(data.Find_Country("Australia").Change) * 100);
+            Egypt_Bar_size = Mathf.Abs(100 + float.Parse(data.Find_Country("Libya").Change) * 100);
+            Europe_Bar_size = Mathf.Abs(100 + float.Parse(data.Find_Country("Europe").Change) * 100);
+            done = true;
+        }
+        Debug.Log(Austrailia_Bar_size);
+        if (Input.GetKeyDown("joystick 1 button 7") || Input.GetButtonDown("q"))
+        {
+            USA_Bar.transform.localScale = new Vector3(1.0f, 0.0f, 1.0f);
+            Austrailia_Bar.transform.localScale = new Vector3(1.0f, 0.0f, 1.0f);
+            Egypt_Bar.transform.localScale = new Vector3(1.0f, 0.0f, 1.0f);
+            Mexico_Bar.transform.localScale = new Vector3(1.0f, 0.0f, 1.0f);
+            Canada_Bar.transform.localScale = new Vector3(1.0f, 0.0f, 1.0f);
+            Europe_Bar.transform.localScale = new Vector3(1.0f, 0.0f, 1.0f);
+            Japan_Bar.transform.localScale = new Vector3(1.0f, 0.0f, 1.0f);
+            Brazil_Bar.transform.localScale = new Vector3(1.0f, 0.0f, 1.0f);
+        }
         if (data != null && data.IsLoaded())
         {
-            Debug.Log(data.IsLoaded());
-            USA_Bar_size = float.Parse(data.Find_Country("United States").Change) * 100.0f;
-            Canada_Bar_size = float.Parse(data.Find_Country("Canada").Change) * 100.0f;
-            Mexico_Bar_size = float.Parse(data.Find_Country("Mexico").Change) * 100.0f;
-            Brazil_Bar_size = float.Parse(data.Find_Country("Brazil").Change) * 100.0f;
-            Japan_Bar_size = float.Parse(data.Find_Country("Japan").Change) * 100.0f; ;
-            Austrailia_Bar_size = float.Parse(data.Find_Country("Australia").Change) * 100.0f; ;
-            Egypt_Bar_size = float.Parse(data.Find_Country("Libya").Change) * 100.0f; ;
-            Europe_Bar_size = float.Parse(data.Find_Country("Europe").Change) * 100.0f;
+            
             if (USA_Bar.transform.localScale.y != USA_Bar_size)
             {
                 if (USA_Bar.transform.localScale.y < USA_Bar_size)
                 {
-                    USA_Bar.transform.localScale += new Vector3(0, 0.01F, 0);
+                    if (USA_Bar.transform.localScale.y < Japan_Bar_size)
+                    {
+                        USA_Bar.transform.localScale += new Vector3(0, 0.3F, 0);
+                    }
                 }
                 else
                 {
-                    USA_Bar.transform.localScale -= new Vector3(0, 0.01F, 0);
+                    USA_Bar.transform.localScale -= new Vector3(0, 0.3F, 0);
                 }
             }
             if (Canada_Bar.transform.localScale.y != Canada_Bar_size)
             {
-                Debug.Log(Canada_Bar.transform.localScale.y);
                 if (Canada_Bar.transform.localScale.y < Canada_Bar_size)
                 {
-                    Canada_Bar.transform.localScale += new Vector3(0, 0.01F, 0);
+                    if (Canada_Bar.transform.localScale.y < Japan_Bar_size)
+                    {
+                        Canada_Bar.transform.localScale += new Vector3(0, 0.3F, 0);
+                    }
                 }
                 else
                 {
-                    Canada_Bar.transform.localScale -= new Vector3(0, 0.01F, 0);
+                    Canada_Bar.transform.localScale -= new Vector3(0, 0.3F, 0);
                 }
             }
             if (Mexico_Bar.transform.localScale.y != Mexico_Bar_size)
             {
-                if (Mexico_Bar.transform.localScale.y < USA_Bar_size)
+                if (Mexico_Bar.transform.localScale.y < Mexico_Bar_size)
                 {
-                    Mexico_Bar.transform.localScale += new Vector3(0, 0.01F, 0);
+                    if (Mexico_Bar.transform.localScale.y < Japan_Bar_size)
+                    {
+                        Mexico_Bar.transform.localScale += new Vector3(0, 0.3F, 0);
+                    }
                 }
                 else
                 {
-                    Mexico_Bar.transform.localScale -= new Vector3(0, 0.01F, 0);
+                    Mexico_Bar.transform.localScale -= new Vector3(0, 0.3F, 0);
                 }
             }
             if (Brazil_Bar.transform.localScale.y != Brazil_Bar_size)
             {
                 if (Brazil_Bar.transform.localScale.y < Brazil_Bar_size)
                 {
-                    Brazil_Bar.transform.localScale += new Vector3(0, 0.01F, 0);
+                    if (Brazil_Bar.transform.localScale.y < Japan_Bar_size)
+                    {
+                        Brazil_Bar.transform.localScale += new Vector3(0, 0.3F, 0);
+                    }
                 }
                 else
                 {
-                    Brazil_Bar.transform.localScale -= new Vector3(0, 0.01F, 0);
+                    Brazil_Bar.transform.localScale -= new Vector3(0, 0.3F, 0);
                 }
             }
             if (Japan_Bar.transform.localScale.y != Japan_Bar_size)
             {
-                if (Japan_Bar.transform.localScale.y < Brazil_Bar_size)
+                if (Japan_Bar.transform.localScale.y < Japan_Bar_size)
                 {
-                    Japan_Bar.transform.localScale += new Vector3(0, 0.01F, 0);
+                    if (Japan_Bar.transform.localScale.y < 100)
+                    {
+                        Japan_Bar.transform.localScale += new Vector3(0, 0.3F, 0);
+                    }
                 }
                 else
                 {
-                    Japan_Bar.transform.localScale -= new Vector3(0, 0.01F, 0);
+                    Japan_Bar.transform.localScale -= new Vector3(0, 0.3F, 0);
                 }
             }
             if (Austrailia_Bar.transform.localScale.y != Austrailia_Bar_size)
             {
-                if (Austrailia_Bar.transform.localScale.y < Brazil_Bar_size)
+                if (Austrailia_Bar.transform.localScale.y < Austrailia_Bar_size)
                 {
-                    Austrailia_Bar.transform.localScale += new Vector3(0, 0.01F, 0);
+                    if (Austrailia_Bar.transform.localScale.y < Japan_Bar_size)
+                    {
+                        Austrailia_Bar.transform.localScale += new Vector3(0, 0.3F, 0);
+                    }
                 }
                 else
                 {
-                    Austrailia_Bar.transform.localScale -= new Vector3(0, 0.01F, 0);
+                    Austrailia_Bar.transform.localScale -= new Vector3(0, 0.3F, 0);
                 }
             }
             if (Egypt_Bar.transform.localScale.y != Egypt_Bar_size)
             {
-                if (Egypt_Bar.transform.localScale.y < Brazil_Bar_size)
+                if (Egypt_Bar.transform.localScale.y < Egypt_Bar_size)
                 {
-                    Egypt_Bar.transform.localScale += new Vector3(0, 0.01F, 0);
+                    if (Egypt_Bar.transform.localScale.y < Japan_Bar_size)
+                    {
+                        Egypt_Bar.transform.localScale += new Vector3(0, 0.3F, 0);
+                    }
                 }
                 else
                 {
-                    Egypt_Bar.transform.localScale -= new Vector3(0, 0.01F, 0);
+                    Egypt_Bar.transform.localScale -= new Vector3(0, 0.3F, 0);
                 }
             }
             if (Europe_Bar.transform.localScale.y != Europe_Bar_size)
             {
-                if (Europe_Bar.transform.localScale.y < Brazil_Bar_size)
+                if (Europe_Bar.transform.localScale.y < Europe_Bar_size)
                 {
-                    Europe_Bar.transform.localScale += new Vector3(0, 0.01F, 0);
+                    if (Europe_Bar.transform.localScale.y < Japan_Bar_size)
+                    {
+                        Europe_Bar.transform.localScale += new Vector3(0, 0.3F, 0);
+                    }
                 }
                 else
                 {
-                    Europe_Bar.transform.localScale -= new Vector3(0, 0.01F, 0);
+                    Europe_Bar.transform.localScale -= new Vector3(0, 0.3F, 0);
                 }
             }
         }
